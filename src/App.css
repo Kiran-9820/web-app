@@ -1,0 +1,575 @@
+.wrapper {
+  display: flex;
+  height:auto;
+}
+
+.sidebar {
+  background-color: hsla(228, 94%, 6%, 0.932);
+  height:auto;
+  min-height:150vh;
+  width: 150px;
+  padding: 80px 0 0 20px;
+  transition: width 0.5s ease;
+}
+
+
+.custom-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+#home,
+#about,
+#contact {
+  margin-bottom: 4px;
+  color: white;
+  font-size: 25px;
+  font-family: arial, sans-serif;
+}
+
+.left-bar-hidden .sidebar {
+  width: 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  position:sticky;
+
+}
+.inner-body{
+ 
+  
+  
+  height: 60px;
+  
+  width: 100%;
+
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.icon:hover,
+.logo:hover {
+  cursor: pointer;
+}
+
+.map,.map-image{
+  width:100%;
+  height:60vh;
+
+  border-bottom:1px solid hsla(0, 1%, 47%, 0.84);
+}
+
+.table{
+  width:100%;
+  height:70vh;
+  
+  
+}
+
+.about-nav{
+  width:100%;
+  height:30px;
+  
+  color:black;
+  margin-top:10px;
+  text-align: center;
+  padding-top:27px;
+  padding-bottom:27px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 30px;
+  align-items: center;
+  border:1px solid hsla(0, 1%, 37%, 0.61);
+  
+}
+.contact-content{
+  height:600px;
+}
+
+.contact-nav{
+  width:100%;
+  height:30px;
+  
+  color:black;
+  margin-top:10px;
+  text-align: center;
+  padding-top:27px;
+  padding-bottom:27px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 30px;
+  align-items: center;
+ 
+  
+}
+.about-content{
+  align-items: center;
+  height: 600px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.div-roadmap,
+    .div-satellite,
+    .div-terrain,
+    .div-hybrid {
+      box-sizing: border-box;
+      width: 50%;
+      height: 50%;
+      border-left:1px solid hsla(0, 1%, 47%, 0.84);
+      border-bottom:1px solid hsla(0, 1%, 47%, 0.84);
+      
+    }
+.div-roadmap{
+ 
+ padding:10px;
+ 
+
+}
+.div-satellite{
+
+  padding:10px;
+ 
+}
+.div-terrain{
+ 
+  padding:10px;
+  
+  
+}
+.img-con{
+  display:flex;
+}
+.div-hybrid{
+  
+  padding:10px;
+  
+}
+.terrain{
+  width:100%;
+  background-color: hsla(228, 94%, 6%, 0.932);
+  color:white;
+  text-align: center;
+  height:50px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.terrain-image{
+  width:200px;
+  height:200px;
+  padding:auto;
+  align-items: center;
+}
+.terrain-content{
+  padding-left:10px;
+  font-size:20px;
+
+}
+.satellite{
+  width:100%;
+  background-color: hsla(228, 94%, 6%, 0.932);
+  color:white;
+  text-align: center;
+  height:50px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.satellite-image{
+  width:200px;
+  height:200px;
+  padding:auto;
+  align-items: center;
+ 
+}
+.satellite-content{
+  padding-left:10px;
+  font-size:20px;
+  
+}
+.roadmap{
+  width:100%;
+  background-color: hsla(228, 94%, 6%, 0.932);
+  color:white;
+  text-align: center;
+  height:50px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.roadmap-image{
+  width:200px;
+  height:200px;
+  padding:auto;
+  align-items: center;
+}
+.roadmap-content{
+  padding-left:10px;
+  font-size:20px;
+  
+}
+.hybrid{
+  width:100%;
+  background-color: hsla(228, 94%, 6%, 0.932);
+  color:white;
+  text-align: center;
+  height:50px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.hybrid-image{
+  width:200px;
+  height:200px;
+  padding:auto;
+  align-items: center;
+}
+.hybrid-content{
+  padding-left:10px;
+  font-size:20px;
+}
+
+.img-con{
+  display:flex;
+  padding-top:20px;
+}
+
+
+
+.data-table {
+  width: 500px;
+  border-collapse: collapse;
+  align-items: center;
+  padding-left:40px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: hsla(228, 94%, 6%, 0.932);
+  color:white;
+  
+}
+.box{
+  margin-left:200px;
+  margin-top:50px;
+  min-height:auto;
+  height: 70vh; /* Set a maximum height */
+  overflow-y: auto;
+}
+
+.select-option{
+  font-size:20px;
+}
+
+
+
+
+.contact-content{
+  width:450px;
+  height:550px;
+  align-items: center;
+  background-color:hsla(228, 94%, 6%, 0.932);
+  margin:20px 0 20px 300px;
+
+  color:white;
+  text-align: center;
+  padding-top:10px;
+  font-size: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sub{
+  font-size:10px;
+}
+.name{
+  width:270px;
+  height:25px;
+  border-radius:15px;
+  padding-left:10px;
+  border:none;
+}
+.area{
+  border:none;
+  margin-top:10px;
+  width:270px;
+  height:100px;
+  border-radius:15px;
+  padding-left:10px;
+  padding-top:10px;
+}
+.details{
+  font-size:15px;
+  margin-bottom:0;
+  margin-top:10px;
+  
+}
+.form{
+  margin-bottom:75px;
+}
+
+.div{
+  display: flex;
+}
+
+.contact-map{
+  margin:20px 0 20px 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width:450px;
+  height:550px;
+
+}
+.globe{
+  width:450px;
+  height:560px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.submit{
+  width:100px;
+  height:25px;
+  border-radius:15px;
+
+  border:none;
+}
+.submit:hover{
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width:100px;
+  }
+
+  .inner-body {
+    height: auto;
+
+  }
+
+  .map, .table, .about-content, .contact-content {
+    height: auto;
+  }
+.nav-bar{
+  height:60px;
+}
+
+  
+  .div-roadmap, .div-satellite, .div-terrain, .div-hybrid {
+    width: 100%;
+    height: 25%;
+    border-left: none;
+    border-bottom: 1px solid hsla(0, 1%, 47%, 0.84);
+  }
+
+  .terrain-image, .satellite-image, .roadmap-image, .hybrid-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .terrain-content, .satellite-content, .roadmap-content, .hybrid-content {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .img-con {
+    flex-direction: column;
+    align-items: center;
+  }
+  #home,
+#about,
+#contact {
+  
+  font-size: 15px;
+ 
+}
+.map-image{
+  width:100%;
+}
+.dropdown-menu{
+  width:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:10px;
+}
+
+  
+}
+/* Add this section at the end of your existing CSS */
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+    padding-top: 100px;
+    min-height: auto;
+  }
+
+  .inner-body {
+    height: auto;
+  }
+
+  .map,
+  .table,
+  .about-content,
+  .contact-content {
+    height: auto;
+  }
+
+  .nav-bar {
+    height: 60px;
+  }
+
+  .div-roadmap,
+  .div-satellite,
+  .div-terrain,
+  .div-hybrid {
+    width: 100%;
+    height: 25%;
+    border-left: none;
+    border-bottom: 1px solid hsla(0, 1%, 47%, 0.84);
+  }
+
+  .terrain-image,
+  .satellite-image,
+  .roadmap-image,
+  .hybrid-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .terrain-content,
+  .satellite-content,
+  .roadmap-content,
+  .hybrid-content {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .img-con {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home,
+  #about,
+  #contact {
+    font-size: 15px;
+  }
+
+  .map-image {
+    width: 100%;
+    height:50%;
+  }
+
+  .dropdown-menu {
+    width: 50px;
+    
+    font-size: 10px;
+  }
+
+  .data-table {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .box {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .contact-content {
+    width: 50%;
+    height: auto;
+    align-items: center;
+    background-color: hsla(228, 94%, 6%, 0.932);
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-bottom:10px;
+  }
+  .contact-nav{
+    height:25px;
+  }
+  .div{
+    display: flex;
+  }
+  .sub {
+    font-size: 10px;
+  }
+
+  .name,
+  .area {
+    width: 50%;
+  }
+
+  .details {
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .div {
+    display: flex;
+    
+  }
+
+  .contact-map {
+    margin: 20px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+    height: auto;
+  }
+
+  .globe {
+    padding-bottom:10px;
+    padding-top:0;
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .submit {
+    width: 25%;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .submit:hover {
+    cursor: pointer;
+  }
+  .form{
+    margin-bottom:30px;
+  
+  }
+}
